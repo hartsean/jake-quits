@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   height: 100%;
-  background: #ffbb00;
+  background: #fef9e9;
 }
 
 #app {
@@ -10,7 +10,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #000;
+  color: #43291F;
   min-height: 100%;
 }
 
@@ -37,7 +37,7 @@ header p {
   margin: 1rem 0 0;
 }
 a {
-  color: black;
+  color: #016FB9;
 }
 
 h1 {
@@ -110,7 +110,7 @@ div.container {
 }
 .flex .progress.dark {
   background: black;
-  color: #ffbb00;
+  color: #FEF9E9;
   padding: 0.5rem;
 }
 @media (min-width: 780px) {
