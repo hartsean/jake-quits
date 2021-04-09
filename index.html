@@ -1,138 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" href="/favicon.png" />
-    <script src="https://kit.fontawesome.com/cd46645905.js" crossorigin="anonymous"></script>
-    <title>Sean Quits</title>
-    <meta
-      name="description"
-      content="Sean Hart quit nicotine. this is helping him along the way."
-    />
-    <meta itemprop="name" content="Sean Quits" />
-    <meta
-      itemprop="description"
-      content="Sean Hart quit nicotine. this is helping him along the way."
-    />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Sean Quits" />
-    <meta
-      name="twitter:description"
-      content="Sean Hart quit nicotine. this is helping him along the way."
-    />
-    <meta name="twitter:site" content="@Sean_Hart" />
-    <meta name="twitter:creator" content="@Sean_Hart" />
-    <meta name="og:title" content="Sean Quits" />
-    <meta
-      name="og:description"
-      content="Sean Hart quit nicotine. this is helping him along the way."
-    />
-    <meta name="og:url" content="https://Seanquits.com" />
-    <meta name="og:site_name" content="Sean Quits" />
-    <meta name="og:type" content="website" />
-    <link rel="stylesheet" href="app.css" />
-  </head>
-  <body>
-    <div id="app">
-      <header class="container">
-        <h1>Sean quits.</h1>
-        <p>
-          <a href="https://seanhart.io" target="blank"
-            >Sean Hart</a
-          >
-          quit nicotine. this is helping him along the way.
-        </p>
-      </header>
-      <div class="container flex">
-        <div class="progress" fraction="seconds">
-          <div class="left"></div>
-          <div class="right">
-            <h2></h2>
-            <h3>Seconds</h3>
-          </div>
-        </div>
-        <div class="progress" fraction="minutes">
-          <div class="left"></div>
-          <div class="right">
-            <h2></h2>
-            <h3>Minutes</h3>
-          </div>
-        </div>
-        <div class="progress" fraction="hours">
-          <div class="left"></div>
-          <div class="right">
-            <h2></h2>
-            <h3>Hours</h3>
-          </div>
-        </div>
-        <div class="progress" fraction="days">
-          <div class="left"></div>
-          <div class="right">
-            <h2></h2>
-            <h3>Days</h3>
-          </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="icon" href="/favicon.png" />
+  <script src="https://kit.fontawesome.com/cd46645905.js" crossorigin="anonymous"></script>
+  <title>Sean Quits</title>
+  <meta name="description" content="Sean Hart quit nicotine. this is helping him along the way." />
+  <meta itemprop="name" content="Sean Quits" />
+  <meta itemprop="description" content="Sean Hart quit nicotine. this is helping him along the way." />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Sean Quits" />
+  <meta name="twitter:description" content="Sean Hart quit nicotine. this is helping him along the way." />
+  <meta name="twitter:site" content="@Sean_Hart" />
+  <meta name="twitter:creator" content="@Sean_Hart" />
+  <meta name="og:title" content="Sean Quits" />
+  <meta name="og:description" content="Sean Hart quit nicotine. this is helping him along the way." />
+  <meta name="og:url" content="https://Seanquits.com" />
+  <meta name="og:site_name" content="Sean Quits" />
+  <meta name="og:type" content="website" />
+  <link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+  <div id="app">
+    <header class="container">
+      <h1>Sean quits.</h1>
+      <p>
+        <a href="https://seanhart.io" target="blank">Sean Hart</a>
+        quit nicotine. this is helping him along the way.
+      </p>
+    </header>
+    <div class="container flex">
+      <div class="progress" fraction="seconds">
+        <div class="left"></div>
+        <div class="right">
+          <h2></h2>
+          <h3>Seconds</h3>
         </div>
       </div>
-      <div class="container flex">
-        <div class="progress" fraction="weeks">
-          <div class="left"></div>
-          <div class="right">
-            <h2></h2>
-            <h3>Weeks</h3>
-          </div>
+      <div class="progress" fraction="minutes">
+        <div class="left"></div>
+        <div class="right">
+          <h2></h2>
+          <h3>Minutes</h3>
         </div>
-        <div class="progress" fraction="months">
-          <div class="left"></div>
-          <div class="right">
-            <h2></h2>
-            <h3>Months</h3>
-          </div>
+      </div>
+      <div class="progress" fraction="hours">
+        <div class="left"></div>
+        <div class="right">
+          <h2></h2>
+          <h3>Hours</h3>
         </div>
-        <div class="progress" fraction="years">
-          <div class="left"></div>
-          <div class="right">
-            <h2></h2>
-            <h3>Years</h3>
-          </div>
+      </div>
+      <div class="progress" fraction="days">
+        <div class="left"></div>
+        <div class="right">
+          <h2></h2>
+          <h3>Days</h3>
         </div>
-        <div class="progress dark">
-          <div class="right">
-            <h2>
-              <span>$<span id="dollars"></span></span
-              ><small>.<span id="cents"></span></small>
-            </h2>
-            <h3>Saved</h3>
-          </div>
+      </div>
+    </div>
+    <div class="container flex">
+      <div class="progress" fraction="weeks">
+        <div class="left"></div>
+        <div class="right">
+          <h2></h2>
+          <h3>Weeks</h3>
         </div>
-        <div class="progress">
-          <div class="left"><i class="fas fa-box fa-2x"></i></div>
-          <div class="right">
-            <h2>2 Boxes</h2>
-            <h3>Toothpicks</h3>
-          </div>
+      </div>
+      <div class="progress" fraction="months">
+        <div class="left"></div>
+        <div class="right">
+          <h2></h2>
+          <h3>Months</h3>
         </div>
-        <div class="progress">
-          <div class="left"><i class="far fa-snowflake fa-2x"></i></div>
-          <div class="right">
-            <h2>1</h2>
-            <h3>Snowpocalypse</h3>
-          </div>
+      </div>
+      <div class="progress" fraction="years">
+        <div class="left"></div>
+        <div class="right">
+          <h2></h2>
+          <h3>Years</h3>
         </div>
-        <div class="progress">
-          <div class="left"><i class="fas fa-star fa-2x"></i></div>
-          <div class="right">
-            <h2>3</h2>
-            <h3>Trips to ATX</h3>
-          </div>
-        </div>
-        <div class="progress">
-          <div class="left"><i class="fas fa-carrot fa-2x"></i></div>
-          <div class="right">
-            <h2>89</h2>
-            <h3>Tacos</h3>
-          </div>
+      </div>
+      <div class="progress dark">
+        <div class="right">
+          <h2>
+            <span>$<span id="dollars"></span></span><small>.<span id="cents"></span></small>
+          </h2>
+          <h3>Saved</h3>
         </div>
       </div>
       <div class="container">
@@ -179,21 +137,15 @@
             </p>
           </div>
           <p style="text-align: center;">
-            <small
-              ><a
-                href="https://www.cdc.gov/tobacco/data_statistics/sgr/2004/posters/20mins/index.htm"
-                target="blank"
-                >cdc.gov</a
-              >
+            <small><a href="https://www.cdc.gov/tobacco/data_statistics/sgr/2004/posters/20mins/index.htm"
+                target="blank">cdc.gov</a>
               |
-              <a href="https://github.com/jakealbaugh/jake-quits" target="blank"
-                >GitHub</a
-              ></small
-            >
+              <a href="https://github.com/jakealbaugh/jake-quits" target="blank">GitHub</a></small>
           </p>
         </div>
       </div>
     </div>
     <script src="app.js"></script>
-  </body>
+</body>
+
 </html>
